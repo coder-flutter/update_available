@@ -10,7 +10,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  update_available_android: ^3.0.0
+  update_available_android:
+    url: 'https://github.com/coder-flutter/update_available'
+    ref: '2091e3fc0db4d5702fa4889638457532f07ceaf8'
+    path: update_available_android
   update_available_ios: ^3.0.1
   update_available_platform_interface: ^4.0.1
 
